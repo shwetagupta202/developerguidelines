@@ -1,0 +1,127 @@
+,,,,,,,Teamcenter,Teamcenter Remarks,Windchill,Windchill Remarks,SAP PLM,SAP PLM Remarks,Oracle Agile cloud,Oracle Agile cloud Remarks,3DExperience ,3DExperience Remarks,Aras,Aras Remarks,Open Questions,Target/ Baseline Value,Remarks for Target/ Baseline Value
+"Functional 
+Category",Use case ID,Use case Name,Use Case Details,Low (1),Medium (3),High (5),Final Rating,,Final Rating,,Final Rating,,Final Rating,,Final Rating,,Final Rating,,,,
+DMU and Visualization,UC1,In built visualization and collaboration capabilities,"1- Basic visualization capabilities: Pan, zoom, part and cross section measurements, dimensions, Display model information like surface finish notes, geom+D3:D4etric tolerance, and 3D notes.
+2 - Visualize product data in lightweight formats in context of product BOM
+3. Adding and saving markup, annotations . sharing with other users
+4. Product Explosion view",No in-built or free visualization module to perform basic operations. Need for additional license or external application,In-built free visualization module to perform basic annotation/markup and rotate operations. ,"In-built free visualization module with all visualization functionalities (incl., explosion and comparison capabilities). Ability to save , export and manage markups/visualization sessions for other users",5, ,5,"1.Visualization capabilities like pan, zoom, rotate, sectioning, adding notes, PMI etc. are possible
+2.Product data in lightweight formats can be created,  Visualized and  accessed from Creo view
+3. Adding and saving markup,annotations,sharing with other users are available
+4. Product Explosion view is available
+5. Visual  comparison between different designs can be done in BOM comparison view
+6. Live visualization sessions can be saved and shared with other users 
+7- Comparison between Creo view express, Lite and MCAD is available in this path 
+https://www.ptc.com/-/media/Files/PDFs/CAD/Feature-Comparison-of-PTC-Creo-View-MCAD-Product-Suite_DS.pdf",4.5,"SAP 3D Visual Enterprise Viewer, SAP ECTR.
+1. Basic Visualization capabilities: Pan zoom part and section measurements  PMI GD&T is possible with integrated visual enterprise viewer.
+2. Visualize Product Data in light weight format is supported. (formats : vds,jt, .cgr, .step etc.) using VEG
+3.  Markups and annotations can be added, and shared with other users.
+4. Product explosion view is possible 
+5. Limited features to visually compare lightweight geometries in BOM view with basic module- Need additional license VMP (not accounted for in the rating)
+",3,"1. Uses Oracle AutoVue for visualization (separate component)
+2. Supports basic 2D/3D viewing, sectioning, measurement
+3.Works well for document-centric viewing but not model-native 
+4. Lightweight visualization depends on format (JT/STEP/PDF)
+5. Markups supported but less collaborative no real-time co-authoring
+6.Explosion views limited unless preauthored in CAD
+
+AutoVue Enterprise Visualization Solutions | Oracle
+",5,"1.Basic visualization capabilities such as pan, zoom, rotate, sectioning, measurements, dimensions, PMI, GD&T, annotations, and 3D notes are supported natively within the 3DEXPERIENCE platform, especially when used with 3DPlay,Catia and related platform services.
+2.Highly responsive lightweight visualization even for large assemblies
+3.Deep integration with EBOM/MBOM & configuration
+4.Real-time collaboration, comments, 3D annotations
+5.Dynamic explosion view (no dependency on CAD prework)
+
+https://www.3ds.com/products/enovia",4.5,"1) In Built Visualization is available with functionalities like:
+1. Measure
+2. Markup
+3. Explosion
+4. Highlighting
+5. Export
+6. Tree View
+2)  OOTB visualization in 3DPDF format  without any license. 
+3) Snapshot of annotations/markups can be captured and shared with other users in discussion group.
+ Live visualization session cannot be shared with other users
+4) Limited features to visually compare lightweight geometries in BOM view",,5,"
+All features mentioned in the criteria are must haves"
+DMU and Visualization,UC2,Neutral formats support and license requirements,"1 - Types of neutral file formats generated and supported : PDF, JT, STEP, IGES, 3DXML etc.  
+","No in-built or free file format converter engine. Need for a third party/licensed converter.
+","In-built or free file format converter engine that supports limited formats. Limitations to build  rules/triggers for automatic generation
+","In-built or free file format converter engine that supports most standard formats. Ability to build  rules/triggers for automatic generation.
+",3,"
+1. Types of neutral file formats generated and supported : JT, STEP, PLMXML.
+2. Reduced rating- Additional translators required for generating other neutral formats
+3.When you open a 3D model file in the following formats, the file is translated to the .jt file format: 
+• STL (.stl, .sla)
+• IGES (.igs, .iges)
+• STEP (.stp)
+• DXF (.dxf) 
+• CGR (.cgr) 
+",3,"1. Neutral file formats like PDF,STEP and IGES can be created in CAD tool and linked to CAD document as secondary attachment
+2.For other formats like 3DXML,JT AND 3DPDF CAD worker needs to be configured
+3.Different neutral file formats(PDF,STEP,IGES,JT and 3Dxml) that are supported OOTB for visualization which are used in downstream applications . Reduced rating-Generation of 3DPDF and JT requires corresponding CAD tool license.",3,"ECTR client side conversion is available with ECTR. Conversion to light weight (vds,JT) is possible. There are limitations in performance and supported formats
+-----------------------------
+Recommended is SAP 3D Visual Enterprise Generator module   for server side generation.
+Link to supported file types by Generator
+https://help.sap.com/viewer/product/SAP_3D_VISUAL_ENTERPRISE_GENERATOR/9.0.0.11/en-US?task=discover_task
+Link to supported file types and limitations by client converter
+https://launchpad.support.sap.com/#/notes/2386992
+",4,"1. Wide support via AutoVue: STEP, IGES, JT, PDF, etc.
+2. Requires AutoVue licensing separately
+3. Limited optimization for very large datasets",5,"1.OOTB support for 3DXML (high compression, streaming)
+2.Supports STEP, IGES, JT imports
+3.Best performance with CATIA/3DXML ecosystem
+4.Licensing is role-based (3DPlay, ENOVIA, CATIA)
+5.Highly optimized for large assembly handling
+
+https://www.3ds.com/products/delmia",3,"1. OOTB ability to generate and support only (3DPDF) for visualization same as other tools 
+Need 3rd party converters /CAD tools to convert to additional formats",,3, Additional translators required for generating other neutral formats - Acceptable
+DMU and Visualization,UC3,Advanced DMU and clash analysis functionalities,"1 - All advanced visualization functionalities: Animation, exploded views, colour coding based on different criteria,
+2- Creation of temporary assemblies/groups to utilize for measurements and cross-section planes.
+3- View and Manage the clash analysis and interference checks
+4 - Geometry based searches and queries-Spatial search
+5 - Save/export visualization sessions, share with other users
+6. Robust integration with PLM system",No explicit module to support advanced visualization and DMU functionalities.,Visualization and DMU module available with limited functionalities. Weak integration with PLM and Product data,"Visualization and DMU module OOTB available or supported with strong integration with 3rd party tool with advanced functionalities like clash analysis, interference checks etc.
+",5,"1.Animation, exploded views and colour coding are available
+2.Creation of temporary assemblies/groups to utilize for measurements, markups and analysis purpose.
+3.Advanced clash analysis and interference checks are available in Teamcenter Professional Visualization (licensed)
+4.Proximity search,volume search is available 
+5.Save/export visualization sessions, share with other users are possible
+6.Real time data sharing is available through Teamcenter Visualization.",5,"1.Animation, exploded views are available
+2.Creation of temporary assemblies/groups to utilize for measurements is needed clarification
+3.clash analysis and interference checks are not available in CREO View but Interference checks are available in creo simulation that is a separate licensed software.
+4.Geometry based searches are available
+5.Save/export visualization sessions, share with other users are possible
+6.Real time data sharing is available through Integration of creo View with Windchill",4,"SAP 3D Visual Enterprise Viewer, SAP 3D Visual Enterprise Author.
+Exploded view, filtered parts possible
+Redlining and views and comments can be shared with other users
+Limited advanced DMU capabilities
+No CAD like automatic clash analysis.
+Spatial search not available with OOTB module. Bounding box based search only possible",2,"1. Advanced DMU is limited natively
+2.Clash detection typically not robust requires integration (CAD/third-party tools)
+3.No strong support for animation or simulation workflows 
+4.Temporary grouping possible but not highly dynamic 
+5.Visualization sessions can be saved via AutoVue but not deeply PLM-governed 
+6. Integration with PLM is document-level, not model-level
+
+https://www.directindustry.com/prod/oracle/product-27142-603517.html",4,"1.Has all advanced visualization functionalities has animations, exploded views in Catia, 3DSpace
+2.Advanced clash detection (hard, soft, clearance, rule-based)
+3.Dynamic grouping & spatial filtering
+4.Geometry-based search (zones, volumes, interference queries)
+5.Sessions are fully integrated & governed in ENOVIA
+6.True model-based enterprise (MBE) enablement
+
+https://www.3ds.com/products/delmia
+https://enterprise.trimech.com/digital-mockup-validation-engineer/",5,"No advance visualization module provided OOTB as in case with Teamcenter and Windchill. 
+Integration with Kisters 3DViewStation to Aras Innovator is available for clash analysis and interference analysis. Clash analysis, comparison of CAD and using colour coding to graphically show the release status of all parts of an assembly.
+Integration is provided by Razorleaf.
+(Razorleaf's WebViewer integration with Aras Innovator)
+
+
+",,5,"
+All features mentioned in the criteria are must haves"
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+Total Rating,,,,,,,4.33,,4.33,,3.83,,3.00,,4.67,,4.17,,,4.00,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
