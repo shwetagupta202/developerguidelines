@@ -1,0 +1,47 @@
+Supplier onboarding
+
+Tech side- creating and developing things for supplier
+bill of material
+
+what level of access
+
+TTL collaboration
+
+Vinod Aragi - Cloud
+
+Shruti Patil- APQP- Cloud 
+
+IAG-portal, handling for supplier,  how do we support that- Vinod, Raunak,
+
+3DX, PnO- User onboarding
+
+Not too technical
+
+2 slides max, message TTL right company technical solution and non technical, supplier 
+such level of work
+
+Horse- 3DX support
+
+CAD design- Magenta team- third party company for onboarding for suppliers for specific modules- 
+GSI- SHarepoint
+any supplier onboarding for vehicle specific requirement- Magna- cdsuid, access, processes
+
+Prasad - Part of Suil team - IAG
+
+Arpan Jain- how many supplier user have to be onboarded, verify relevant details- Cloud aspect
+
+
+
+
+After sale solution
+once car is sold, need for PLM
+
+TTL or Rivian(Vijay Mye)
+
+
+
+
+
+
+
+
